@@ -1,6 +1,6 @@
 # travis-ci-deloy-test
 
-This repository is for testing Travis CI for deployments.
+This repository is for testing Travis CI for uploading artifiacts.
 
 The `travis.yml` uses the `addons.artifcat` declaration to copy the deploy
 artifcats to AWS S3
