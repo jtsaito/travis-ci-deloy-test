@@ -8,3 +8,6 @@ artifcats to AWS S3
 This requires the `ARTIFACTS_KEY` and `ARTIFACTS_SECRET` environment
 variables to be set in the Settings section of Travis (on `travis-ci.org`)
 for this Github repository.
+
+## Resources
+[Helpful linter for writing the `travis.yml`](https://lint.travis-ci.org/)

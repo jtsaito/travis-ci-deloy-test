@@ -7,4 +7,4 @@ addons:
     bucket: travis-ci-deloy-test
     paths:
       - ./artifacts
-
+    target_paths: $TRAVIS_BUILD_NUMBER
