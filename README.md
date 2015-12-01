@@ -10,7 +10,8 @@ variables to be set in the Settings section of Travis (on `travis-ci.org`)
 for this Github repository.
 
 ## Remark
-The example `.travis.yml` sets `target_paths` to `$TRAVIS_BUILD_NUMBER`. When
+All files in the `artifacts` directory will be uploaded to the directoy specified by `target_paths`
+(sic!). The example `.travis.yml` sets `target_paths` to `$TRAVIS_BUILD_NUMBER`. When
 dropping the `targe_paths` this defaults to `$GITHUB_NAME$REPOSITORY_NAME$TRAVIS_BUILD_NUMBER`.
 
 ## Resources
