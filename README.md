@@ -1,3 +1,3 @@
 # travis-ci-deloy-test
 
-This is just for testing Travis ci for deployments.
+This repository is for testing Travis CI for deployments.
