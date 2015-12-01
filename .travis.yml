@@ -2,10 +2,8 @@ language: ruby
 
 addons:
   artifacts: true
-     debug: true
-  region: eu-west-1
-  paths:
-  - artifacts
-
-env:
-  - ARTIFACTS_BUCKET=travis-ci-deloy-test
+    debug: true
+    bucket: travis-ci-deloy-test
+    s3_region: eu-west-1
+    paths:
+      - ./artifacts
