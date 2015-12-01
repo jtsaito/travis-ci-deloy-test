@@ -1,0 +1,3 @@
+ARTIFACTS_KEY=(AWS access key id)
+ARTIFACTS_SECRET=(AWS secret access key)
+ARTIFACTS_BUCKET=(S3 bucket name)

@@ -1,0 +1,10 @@
+language: ruby
+
+addons:
+  artifacts: true
+  s3_region: "eu-west-1"
+  paths:
+  - artifacts
+
+env:
+  - ARTIFACTS_BUCKET=travis-ci-deloy-test
