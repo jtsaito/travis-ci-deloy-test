@@ -9,5 +9,9 @@ This requires the `ARTIFACTS_KEY` and `ARTIFACTS_SECRET` environment
 variables to be set in the Settings section of Travis (on `travis-ci.org`)
 for this Github repository.
 
+## Remark
+The example `.travis.yml` sets `target_paths` to `$TRAVIS_BUILD_NUMBER`. When
+dropping the `targe_paths` this defaults to `$GITHUB_NAME$REPOSITORY_NAME$TRAVIS_BUILD_NUMBER`.
+
 ## Resources
 [Helpful linter for writing the `travis.yml`](https://lint.travis-ci.org/)
