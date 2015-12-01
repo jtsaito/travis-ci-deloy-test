@@ -7,4 +7,4 @@ addons:
   - artifacts
 
 env:
-  - ARTIFACTS_BUCKET=travis-ci-deloy-test
+  - ARTIFACTS_BUCKET=travis-ci-deloy-test.s3-website-eu-west-1.amazonaws.com
