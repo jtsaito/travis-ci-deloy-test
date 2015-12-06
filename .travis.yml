@@ -6,5 +6,5 @@ addons:
     s3_region: eu-west-1
     bucket: travis-ci-deloy-test
     paths:
-      - ./artifacts
+      - ./public/assets
     target_paths: $TRAVIS_BUILD_NUMBER
